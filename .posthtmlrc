@@ -1,0 +1,13 @@
+{
+  "plugins": {
+    "posthtml-extend": {
+      "root": "./src/_layouts"
+    },
+    "posthtml-modules": {
+      "root": "./src/_components",
+      "tag": "component",
+      "attribute": "use",
+      "attributeAsLocals": true
+    }
+  }
+}
